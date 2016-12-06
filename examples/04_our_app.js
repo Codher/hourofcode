@@ -50,3 +50,6 @@ console.log(getTarget());
 // defined before? Let's use it together with our
 // new functions
 printResultToConsole(getStartup(), getTarget());
+
+// Yay! We are now getting random ideas for startups thanks to a program.
+// Isn't that cool? High five! ✋

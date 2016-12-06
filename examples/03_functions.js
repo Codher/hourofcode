@@ -42,21 +42,6 @@ function sayPitch(startup, friend) {
   console.log("Hey " + friend + "! I'm looking for a cofounder for a new startup. It is like " + startup);
 }
 
-// Programming languages come with a ton of useful features
-// A very common one is called a for loop, it is really
-// useful because it allows us to execute the same piece
-// of code many times while changing values without
-// having to write a lot of code
-
-// Let's bring our startups array back for this example
-var purrter = "Twitter for cats";
-var petalvidsor = "Tripadvisor for flowers";
-var myStartups = [purrter, petalvidsor, "Accenture for food"];
-
-for (var i = 0; i < myStartups.length; i++) {
-  sayPitch(myStartups[i], "Mark");
-}
-
 // sayPitch is a very simple function, so it doesn't seem
 // like it's saving a lot of effort. But next time we'll
 // see the power of functions more clearly.

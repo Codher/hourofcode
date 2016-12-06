@@ -1,0 +1,49 @@
+<!-- HTML is the language that tells the web browser what to display -->
+<!-- Since it doesn't tell it what things do, we call it a markup language -->
+<!-- Comments in HTML are set by these arrow looking things -->
+
+<!-- HTML elements are declared by writing an opening and a closing tag -->
+<!-- <element-name></element-name> -->
+<!-- tags can contain other tags, making html very easy to read -->
+<!DOCTYPE html>
+<html>
+  <!-- Everything inside the head element won't be displayed in the browser -->
+  <!-- but is considered useful information for the browser -->
+  <!-- We don't have to worry too much about it this time -->
+  <head>
+    <meta charset="utf-8">
+    <title>Random Startup Generator</title>
+    <link rel="stylesheet" href="0502_our_website.css">
+    <script src="0500_our_website.js" charset="utf-8"></script>
+  </head>
+  <!-- Everything inside the body element will be displayed in the browser -->
+  <body>
+    <!-- div elements are boxes where we can put content -->
+    <!-- notice that we're giving a class attribute to this element -->
+    <!-- attributes are extra information we add to our elements -->
+    <!-- we'll learn more about classes when we look at css, but let's think -->
+    <!-- of it as a name for the element for now -->
+    <div class="rsg__result">
+      <!-- span elements are inline containers where we can put information -->
+      <!-- inline means that they don't force the content to do a line break -->
+      <!-- after them. -->
+      <span>It's like </span>
+      <span class="rsg__result__startup">_________ </span>
+      <span>for </span>
+      <span class="rsg__result__target">_________</span>
+      <!-- We've just used four span elements to make a sentence, which might -->
+      <!-- seem silly, but it'll make sense once we go back to JavaScript -->
+    </div>
+    <div class="rsg__actions">
+      <!-- p elements are paragraphs, they are a bit like divs but normally -->
+      <!-- contain only text. -->
+      <p>
+        Press the button below to generate a random startup idea
+      </p>
+      <!-- button elements are exactly what they name say -->
+      <button class="rsg__actions__generate">
+        Generate a Random Startup!
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+/* CSS is the language that tells the web browser how should its elements look */
+/* Comments in CSS are surrounded by slashes and stars like these */
+/*
+You can even break
+your comments in many
+lines
+like
+this.
+*/
+
+/*
+  CSS works with a combination of selectors, properties and values
+  In this case body is an element selector, it refers to <body> in html.
+  Everything inside the curly braces after a selector are properties that will
+  apply to it.
+  For example let's set the background of our website to a light blue color.
+  Properties and values go hand in hand, they're a bit like variable assignments
+  first we define what property we want to set: background-color this time.
+  Then we tell it to set to the color #c3dbe2, which is a light blue.
+*/
+body {
+  background-color: #c3dbe2;
+}
+
+/*
+  Remember we added something called classes to some our elements in HTML?
+  Here's where they come in handy, we refer to them by prefacing them with a dot
+  Now all the properties we define here will affect all the elements that share
+  that class in our HTML document.
+*/
+.rsg__result {
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 96px;
+  text-align: center;
+}
+
+/*
+  There are a ton of properties we can modify with css, but we only have time
+  for a few of them. Check the Further Reading section in the readme to learn
+  more about these technologies.
+*/
+.rsg__actions {
+  text-align: center;
+}
